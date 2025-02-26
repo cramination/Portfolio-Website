@@ -16,6 +16,37 @@ body {
     background-color: darkgray;
 }
 
+
+ @media (max-width: 768px) {
+
+    .carousel_container {
+        display: flex;
+        position: absolute;
+        left: 80%;
+        justify-content: space-evenly;
+    }
+
+}
+
+
+ /* Styles for larger screens (desktop) */
+
+ @media (min-width: 768px) {
+
+    .carousel_container {
+        display: flex;
+        position: relative;
+        width: 100vw;
+        height: auto;
+        left: 0;
+        justify-content: space-evenly;
+    }
+
+}
+
+
+
+
 video::-webkit-media-controls {
   display: none;
 }
@@ -66,13 +97,6 @@ img {
     position: relative;
     top: 50px;
     left: 50%;
-}
-
-.carousel_container {
-    display: flex;
-    position: relative;
-    left: 100%;
-    justify-content: space-evenly;
 }
 
 

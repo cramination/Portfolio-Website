@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+
+     <!-- HOME -->
+     <button onclick=" hideButton()" id="hide-button"></button>
+     <section id="Home">
+
+        <video id="video1" src="assets/Lighthouse_16bit.mp4" 
+        autoplay
+        loop
+        muted>
+        </video>
+        
+        
+        <video id="video2" src="assets/Lighthouse_ON_16BIT.mp4"
+        autoplay
+        loop
+        muted
+        style="display: none;">
+        </video>
+         
+        
+        <button class="light_switch" onclick="switchVideos()">Switch Videos</button> 
+    </section>
+
+
+
+     <!-- WORK -->
+
+
+
+     <section id="WORK">
+        
+
+        <!-- 3D MODELS -->
+    
+        <div class="carousel_container">
+            <h2 class="section_title">Work</h2>
+            <div class="carousel">
+                <h2 class="project_type">3D Models</h2>
+
+                <div class="carousel_track-container">
+                    <button class="carousel_button prev is-hidden"></button>
+                    <button class="carousel_button next"></button>
+                    <ul class="carousel_track">
+                        <li class="carousel_slide current_slide">
+                            <a href="https://cramination.github.io/comp-5/">
+                                <img class="thumbnail" src="assets/computer__thumbnail_00000.png"></a>
+                                <h2 class="poject-title">Computer Project</h2>
+                        </li>
+                        <li class="carousel_slide">
+                            <button onclick="showButton()" id="img-button-1"></button>
+                                <img class="thumbnail" src="assets/Escape thumbnail_00000.png"></a>
+                                <h2 class="poject-title">Beach Scene</h2>
+                        </li>
+                        <li class="carousel_slide">
+                            <button onclick="showButton2()" id="img-button-2"></button>
+                                <img class="thumbnail" src="assets/Bingo hall image_00274.png"></a>
+                                <h2  class="poject-title">Bingo Hall</h2>
+                        </li>
+                    </ul>
+                </div>
+            
+
+
+                <div class="carousel_nav">
+                    <button class="carousel_indicator current_slide"></button>
+                    <button class="carousel_indicator"></button>
+                    <button class="carousel_indicator"></button>
+                </div>
+
+
+            </div>
+
+
+            <!-- ANIMATION -->
+            <div class="carousel-2">
+                <h2 class="project_type">Animation</h2>
+
+                <div class="carousel_track-container-2">
+                    <button class="carousel_button-2 prev-2 is-hidden-2"></button>
+                    <button class="carousel_button-2 next-2"></button>
+                    <ul class="carousel_track-2">
+                        <li class="carousel_slide-2 current_slide-2">
+                            <a href="https://www.youtube.com/watch?v=KWTdugP_Kuw">
+                                <img class="thumbnail" src="assets/Portfolio_thumbnail_00791.png"></a>
+                                <h2 class="poject-title">2025 Portfolio Reel</h2>
+                        </li>
+                        <li class="carousel_slide-2">
+                            <a href="https://www.youtube.com/watch?v=RaeuTqOuBEo">
+                                <img class="thumbnail" src="assets/Animation_Montage_thumbnail_00727.png"></a>
+                                <h2 class="poject-title">Animation Reel</h2>
+                        </li>
+                        <li class="carousel_slide-2">
+                            <a href="https://www.youtube.com/watch?v=dWFIsUGM44Q">
+                                <img class="thumbnail" src="assets/Sports0296.png"></a>
+                                <h2  class="poject-title">Brother Sport</h2>
+                        </li>
+                        <li class="carousel_slide-2">
+                            <a href="https://www.youtube.com/watch?v=CuzU1QDcAl0">
+                                <img class="thumbnail" src="assets/Artschool Thumbnail_00000.png"></a>
+                               
+                                <h2  class="poject-title">Art's Cool Art School</h2>
+                        </li>
+                        <li class="carousel_slide-2">
+                            <a href="https://www.youtube.com/watch?v=MlwpFLKNEVk">
+                                <img class="thumbnail" src="assets/Up_Uneven_Steps_00000.png"></a>
+                                <h2  class="poject-title">Graph Animation</h2>
+                        </li>
+                    </ul>
+                </div>
+            
+
+
+                <div class="carousel_nav-2">
+                    <button class="carousel_indicator-2 current_slide-2"></button>
+                    <button class="carousel_indicator-2"></button>
+                    <button class="carousel_indicator-2"></button>
+                    <button class="carousel_indicator-2"></button>
+                    <button class="carousel_indicator-2"></button>
+                </div>
+        </div>
+
+         <!-- MICROSOFT OFFICE -->
+         <div class="carousel-3">
+            <h2 class="project_type">Data Analasis</h2>
+
+            <div class="carousel_track-container-3">
+                <button class="carousel_button-3 prev-3 is-hidden-3"></button>
+                <button class="carousel_button-3 next-3"></button>
+                <ul class="carousel_track-3">
+                    <li class="carousel_slide-3 current_slide-3">
+                        
+                            <button onclick="showButton3()" id="img-button-3"></button>
+                            <img class="thumbnail" src="assets/Microsoft_Office_thumbnail.png"></a>
+                            <h2 class="poject-title">Player Database</h2>
+                    </li>
+                    <li class="carousel_slide-3">
+                        
+                            <button onclick="showButton4()" id="img-button-4"></button>
+                            <img class="thumbnail" src="assets/Microsoft_Office_thumbnail_2.png"></a>
+                            <h2 class="poject-title">Updates</h2>
+                    </li>
+                    <li class="carousel_slide-3">
+                        
+                            <button onclick="showButton5()" id="img-button-5"></button>
+                            <img class="thumbnail" src="assets/Microsoft_Office_thumbnail_3.png"></a>
+                            <h2  class="poject-title">Glitches</h2>
+                    </li>
+                    <li class="carousel_slide-3">
+                        
+                            <button onclick="showButton6()" id="img-button-6"></button>
+                            <img class="thumbnail" src="assets/Microsoft_Office_thumbnail_4.png"></a>
+                            <h2  class="poject-title">Sparse Updates</h2>
+                    </li>
+                    <li class="carousel_slide-3">
+                        
+                            <button onclick="showButton7()" id="img-button-7"></button>
+                            <img class="thumbnail" src="assets/Microsoft_Office_thumbnail_5.png"></a>
+                            <h2  class="poject-title">Indie Games</h2>
+                    </li>
+                    <li class="carousel_slide-3">
+                        
+                            <button onclick="showButton8()" id="img-button-8"></button>
+                            <img class="thumbnail" src="assets/Microsoft_Office_thumbnail_6.png"></a>
+                            <h2  class="poject-title">Development Comparison</h2>
+                    </li>
+                </ul>
+                
+            </div>
+        
+
+
+            <div class="carousel_nav-3">
+                <button class="carousel_indicator-3 current_slide-3"></button>
+                <button class="carousel_indicator-3"></button>
+                <button class="carousel_indicator-3"></button>
+                <button class="carousel_indicator-3"></button>
+                <button class="carousel_indicator-3"></button>
+                <button class="carousel_indicator-3"></button>
+
+                
+            </div>
+
+            <script src="script.js"></script>
+            <div class="full-images">
+                <img id="img-full-1" src="assets/escape_final_00005000.png" alt="">
+                <img id="img-full-2" src="assets/Bingo hall full_00274.png" alt="">
+                <img id="img-full-3" src="assets/Microsoft_Office_image.png" alt="">
+                <img id="img-full-4" src="assets/Microsoft_Office_image_2.png" alt="">
+                <img id="img-full-5" src="assets/Microsoft_Office_image_3.png" alt="">
+                <img id="img-full-6" src="assets/Microsoft_Office_image_4.png" alt="">
+                <img id="img-full-7" src="assets/Microsoft_Office_image_5.png" alt="">
+                <img id="img-full-8" src="assets/Microsoft_Office_image_6.png" alt="">
+                
+             </div>
+    </section>
+
+
+</body>
+</html>

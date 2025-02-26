@@ -16,7 +16,9 @@ body {
     background-color: darkgray;
 }
 
-
+video::-webkit-media-controls {
+  display: none;
+}
 
 #home{
     display: inline;

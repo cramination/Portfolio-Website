@@ -71,7 +71,7 @@ img {
 .carousel_container {
     display: flex;
     position: relative;
-    left: 100px;
+    left: 800px;
     justify-content: space-evenly;
 }
 

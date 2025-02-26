@@ -22,7 +22,7 @@ body {
     .carousel_container {
         display: flex;
         position: absolute;
-        left: 80%;
+        left: 60%;
         justify-content: space-evenly;
     }
 

@@ -22,10 +22,14 @@ body {
     .carousel_container {
         display: flex;
         position: absolute;
-        left: 60%;
-        justify-content: space-evenly;
+        transform: scale(0.33);
+        top: 17%;
+        left: -91%;
     }
-
+    video {
+        width: 100%;
+        height: auto;
+    }
 }
 
 
@@ -36,7 +40,6 @@ body {
     .carousel_container {
         display: flex;
         position: relative;
-        width: 100vw;
         height: auto;
         left: 0;
         justify-content: space-evenly;

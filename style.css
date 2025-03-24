@@ -21,11 +21,13 @@ body {
 
     .carousel_container {
         display: flex;
-        position: absolute;
+        position: relative;
         transform: scale(0.33);
-        top: 17%;
-        left: -91%;
+        top: -240px;
+        right: 30%;
+        
     }
+
     video {
         width: 100%;
         height: auto;
@@ -45,6 +47,8 @@ body {
         justify-content: space-evenly;
     }
 
+
+    
 }
 
 
